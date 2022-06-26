@@ -1,0 +1,49 @@
+
+.container{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    
+    
+}
+.div{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flexbox-container{
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.container-2{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+
+.flex-box-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    
+
+}
+
+.flex-box-container-2 img{
+    
+    box-shadow: 0px 10px 50px rgb(0, 0, 0, 0.7);
+   
+}
