@@ -18,7 +18,7 @@
 
 .flexbox-container{
 
-    padding: 10px;
+    border: 1px solid black;
     display: flex;
     align-items: center;
 }
@@ -26,7 +26,7 @@
 
 .container-2{
     border: 1px solid black;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     
