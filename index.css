@@ -35,11 +35,12 @@
     
 }
 
-.flex-box-container-2{
+.flex-box-container-2, .flex-box-rps{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 5px;
+    padding: 10px;
+    border: 1px solid black;
     
 
 }
@@ -53,5 +54,8 @@
 
 
 .flex-box-rps img:hover{
-    
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
 }
+
+/* Style flex-box-rps divs*/
+
