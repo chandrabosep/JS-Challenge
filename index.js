@@ -18,6 +18,19 @@ function reset(){
 function generatecat() {
     var image = document.createElement('img');
     var div = document.getElementById('flex-cat-gen');
-    image.src = ("https://c.tenor.com/q5BICsyoDnQAAAAS/gato-fiesta.gif");
+    image.src = ("http://thecatapi.com/api/images/get?format=src&type=gif&size=small");
     div.appendChild(image);
+}
+
+// Challenge 3: Rock-Paper-Scissors
+
+function rpsGame(yourchoice){
+    console.log(yourchoice);
+    /*console.log(yourchoice.src);*/
+     
+    var humanChoice, botChoice;
+    humanChoice =yourchoice.id;
+    botChoice=
+    results = decidewinner(humanChoice,botChoice); // [1,0] [0,1] [0.5,0.5]
+    message = finalMessage(results)
 }
