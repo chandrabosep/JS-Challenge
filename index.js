@@ -93,7 +93,6 @@ function rpsFrontEnd(humanImageChocice,botImageChoice,finalMessage){
 
     document.getElementById('flex-box-rps-div').appendChild(humanDiv);
     document.getElementById('flex-box-rps-div').appendChild(messageDiv);
-
     document.getElementById('flex-box-rps-div').appendChild(botDiv);
 
 
